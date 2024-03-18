@@ -7,49 +7,69 @@ published: true
 repository: breadscorner/Hark-Twitter-Clone
 ---
 
+# Hark - Twitter Clone
 
-[![](https://unkey.dev/images/landing/app.png)](https://unkey.dev)
+## Project Overview
 
-## Twitter Clone
+This Twitter clone project served as a demonstration of my proficiency gained from the Frameworks course at BCIT. Leveraging knowledge acquired from each class, I meticulously crafted a fully functional replica of a social media platform using React, Next.js, and Tailwind CSS, while seamlessly integrating S3 for image storage and a Neon database. Additionally, authentication via GitHub was seamlessly implemented using NextAuth.
 
-🌟 Hark is a Twitter clone built with React and Next.js, designed to provide a familiar Twitter-like experience with these core features:
+## Key Features
 
-## 🚀 Features
+### Real-time Collaboration:
 
-### 🏠 Home Feed
+* Users can seamlessly create and delete posts, complete with image attachments.
+* The Liked page showcases posts adorned with likes, though the like functionality itself is pending completion.
 
-- **Engagement:** Like and soon comment on posts to interact with posts.
-- **Saving Posts:** Like posts and view them on your liked posts page.
+### Personal Profiles:
+* Authentication is facilitated through GitHub, providing users with personalized profiles via NextAuth. 
 
-### ❤️ Liked Posts Page
+### Home Feed:
+* The home page offers users a comprehensive view of all posts, ensuring easy navigation and accessibility.
 
-- Access a dedicated page to view all your liked posts.
-- Posts are organized ascending from the post date.
+## Personal Motivation
 
-### 📝 Add Post
+### Learning of Next.js:
 
-- Compose and share posts with text and media.
+* I proactively explored Next.js before its inclusion in the course curriculum, demonstrating a commitment to self-directed learning.
 
-### 🔍 Search Page (Not-functional)
+### Exploration of State Management:
+* Throughout the development process, I aimed to deepen my understanding of state management within the React/Next.js ecosystem.
 
-- Discover posts through the search feature.
-- Search for specific posts or keywords.
+### Integration of S3 with React:
+* By integrating S3, I aimed to expand my skill set and explore new avenues of functionality within React-based projects.
 
-### 👤 User Profile Page
+## Tech Stack:
 
-- View a user's posts and information.
-- Logout from this page.
+### Backend:
 
-## 🛠️ Technologies Used
+* NeonDB:
+Utilized as the database solution, providing efficient data storage and retrieval capabilities.
 
-- **React:** For creating dynamic and interactive UIs.
-- **Next.js:** For server-side rendering and static website generation.
-- **NextAuth:** For implementing authentication and authorization in Next.js applications.
-- **NeonDB:** For efficient and scalable data management.
-- **Drizzle-ORM:** For data manipulation and query building in JavaScript.
-- **AWS S3:** For scalable cloud storage solutions.
-- **Crypto:** For cryptographic functionalities in Node.js.
+* DrizzleORM:
+Employed as the Object-Relational Mapping (ORM) tool to facilitate seamless interaction between the application and the Neon database.
 
-## ⚠️ Disclaimer
+### Frontend:
 
-Some features are currently for aesthetics only.
+* React:
+Utilized for crafting dynamic and interactive user interfaces.
+
+* TypeScript:
+Employed to bolster code quality and developer productivity through the imposition of static typing.
+
+* Next.js:
+Utilized for server-side rendering and enhanced performance.
+
+### State Management:
+
+* Utilized useState and React hooks for efficient state management.
+
+### Styling:
+
+* Tailwind CSS:
+Chosen for its versatility in crafting polished and responsive designs, thereby elevating the overall user experience.
+
+## Project Summary:
+
+Learning new things was a highlight of this project. I began certain tasks, such as creating individual modals for posts, before learning about state management or design tools like Shadcn. As a result, I had to find ways to teach myself.
+
+Moving forward with this project, my focus would be on adding features to the posts, such as likes. I've already set up the database to track likes and display the users who liked a post. Posts with likes by the logged-in user are also already set up to appear on the liked page. Completing this feature and moving on to comments would be the next steps.
