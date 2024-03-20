@@ -15,8 +15,8 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 
   return (
     <Link href={`/projects/${project.slug}`}>
-      <article className={`p-4 md:p-8 ${bgColorClass} ${hoverBgColorClass} h-full`}>
-        <div className="flex justify-between gap-2 items-center">
+      <article className={`p-4 md:p-8 ${bgColorClass} ${hoverBgColorClass} h-full `}>
+        {/* <div className="flex justify-between gap-2 items-center"> */}
           {/* <span className="text-xs duration-1000 text-zinc-200 group-hover:text-white group-hover:border-zinc-200 drop-shadow-orange">
 						{project.date ? (
 							<time dateTime={new Date(project.date).toISOString()}>
@@ -28,7 +28,7 @@ export const Article: React.FC<Props> = ({ project, views }) => {
 							<span>SOON</span>
 						)}
 					</span> */}
-        </div>
+        {/* </div> */}
         <h2 className="z-20 text-xl font-medium duration-1000 lg:text-3xl text-zinc-200 group-hover:text-white font-display">
           {project.title}
         </h2>
