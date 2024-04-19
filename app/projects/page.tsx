@@ -52,11 +52,28 @@ export default async function ProjectsPage() {
           <h2 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl">
             Projects
           </h2>
-          <p className="mt-4 text-zinc-400">
-            This is a collection of my personal projects, some of which I have
-            worked on with others. I hope you find something interesting here.
-          </p>
+          <div className="flex items-center">
+            <div className="mr-4 mt-8 w-full">
+              <img
+                className="h-full mt-4"
+                src="https://streak-stats.demolab.com?user=breadscorner&theme=dracula"
+                alt="GitHub Streak"
+              />
+            </div>
+            <div className="flex flex-col items-center  mt-8 ">
+              <p className="text-zinc-400 mb-4">
+                I have challenged myself to 100 days of coding. Upon successful
+                completion, I will be writing about my experience to share with
+                other developers.
+              </p>
+              <p className="text-zinc-400">
+                Below are some of the projects I have worked on throughout this
+                personal campaign.
+              </p>
+            </div>
+          </div>
         </div>
+
         <div className="w-full h-px bg-zinc-800" />
 
         {/* Display the first row with the featured projects */}
