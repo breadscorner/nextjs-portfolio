@@ -2,13 +2,18 @@ import { Navigation } from "../components/nav";
 
 export default function Example() {
   return (
-    <div className=" bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 h-full">
+    <div className="px-[100px] bg-gradient-to-tl from-zinc-900/0 via-zinc-900 to-zinc-900/0 h-full pb-24">
       <Navigation />
       <div className="px-6 pt-20 mx-auto space-y-8 max-w-7xl lg:px-8 md:space-y-16 md:pt-24 lg:pt-32">
         <h1 className="text-3xl font-bold tracking-tight text-zinc-100 sm:text-4xl pb-16 border-b border-zinc-800">
           About
         </h1>
-        <div className="text-zinc-400 mt-4 px-20 w-full">
+        <div className="text-zinc-400 px-20 w-full">
+          <div className="flex justify-center space-x-4 mb-8">
+            <a href="https://skillicons.dev">
+              <img src="https://skillicons.dev/icons?i=docker,aws,cs,css,dotnet,electron,express,js,laravel,md,materialui,mysql,nextjs,nodejs,php,pnpm,postgres,react,tailwind,ts,vite&perline=21" />
+            </a>
+          </div>
           <p>
             I am interested in the world of development as it provides an
             interesting and rewarding process of solving real-life problems
