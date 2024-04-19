@@ -39,12 +39,8 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-  // twitter: {
-  //   title: "Chronark",
-  //   card: "summary_large_image",
-  // },
   icons: {
-    shortcut: "/favicon.png",
+    shortcut: "/favicon-32x32.png",
   },
 };
 const inter = Inter({

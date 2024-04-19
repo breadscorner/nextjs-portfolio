@@ -20,7 +20,7 @@ export default async function ProjectsPage() {
     return acc;
   }, {} as Record<string, number>);
 
-  const featured = allProjects.find((project) => project.slug === "movie-ratings")!;
+  const featured = allProjects.find((project) => project.slug === "sst-social-app")!;
   const top2 = allProjects.find((project) => project.slug === "travelmeet")!;
   const top3 = allProjects.find((project) => project.slug === "laravel-live-scores")!;
   const sorted = allProjects
