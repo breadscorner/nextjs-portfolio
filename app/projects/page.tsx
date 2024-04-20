@@ -60,7 +60,7 @@ export default async function ProjectsPage() {
                 alt="GitHub Streak"
               />
             </div>
-            <div className="flex flex-col items-center  mt-8 ">
+            <div className="flex flex-col items-center mt-8">
               <p className="text-zinc-400 mb-4">
                 I have challenged myself to 100 days of coding. Upon successful
                 completion, I will be writing about my experience to share with
