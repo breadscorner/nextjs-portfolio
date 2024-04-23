@@ -9,7 +9,7 @@
 }
 
 .hex-brick {
-  background: #000000;
+  background: #cd98ff;
   width: 30px;
   height: 17px;
   position: absolute;
@@ -323,14 +323,14 @@
 
 @keyframes fade00 {
   0% {
-    background: #252525;
+    background: #9b30ff; /* Lighter purple */
   }
-
+  
   50% {
-    background: #000000;
+    background: #6917b6; /* Base purple */
   }
-
+  
   100% {
-    background: #353535;
+    background: #350463; /* Darker purple */
   }
 }
