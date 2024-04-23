@@ -48,9 +48,9 @@ const inter = Inter({
   variable: "--font-inter",
 });
 
-const calSans = LocalFont({
-  src: "../public/fonts/CalSans-SemiBold.ttf",
-  variable: "--font-calsans",
+const dancingScript = LocalFont({
+  src: "../public/fonts/DancingScript-Regular.ttf",
+  variable: "--font-dancingscript",
 });
 
 export default function RootLayout({
@@ -59,7 +59,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={[inter.variable, calSans.variable].join(" ")}>
+    <html lang="en" className={[inter.variable, dancingScript.variable].join(" ")}>
       <head>
         <Analytics />
       </head>
